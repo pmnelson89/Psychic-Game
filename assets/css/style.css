@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(http://www.ombrabianca.com/wp-content/uploads/2018/10/psychic-readings-near-me.jpg);
+    background: url("http://www.ombrabianca.com/wp-content/uploads/2018/10/psychic-readings-near-me.jpg");
     background-size: cover;
-}
+} 
 
 * {
     box-sizing: border-box;

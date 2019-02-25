@@ -19,7 +19,7 @@ document.onkeyup = function(event) {
     
     if (userGuess === computerChoice){
         win = wins++;
-        resetGame();
+        resetRound();
         } 
     // else {
     //     guessesLeft = guessesLeft--; //starts at 10 but will not change
@@ -28,10 +28,17 @@ document.onkeyup = function(event) {
         guessesLeft--; //starts at 9 but changes
     }
 
-    if (guessesLeft < 1) {
+    if (guessesLeft < 0) {
         losses++;
-        resetGame();
+        resetRound();
     }
+
+    //why does this lock the game up?
+
+    // if (losses > 5) {
+    //     alert(You lose.  Game Over.);
+    //     resetGame();
+    // }
 
 
         guessesSoFarText.textContent = userGuess;
@@ -43,7 +50,14 @@ document.onkeyup = function(event) {
 
 //where do I put this??
 
-function resetGame() {
+function resetRound() {
     guessesLeft = 10;
     guessesSoFar = [];
 }
+
+// function resetGame() {
+//     wins = 0;
+//     losses = 0;
+//     guessesLeft = 10;
+//     guessesSoFar = [];
+// }

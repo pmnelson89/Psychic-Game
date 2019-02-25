@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(http://www.ombrabianca.com/wp-content/uploads/2018/10/psychic-readings-near-me.jpg);
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.scoreBoard {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+p {
+    float: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#wins-text {
+    color: green;
+    max-width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#losses-text {
+    color: red;
+    max-width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#guessesLeft-text {
+    color: gold;
+    max-width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+

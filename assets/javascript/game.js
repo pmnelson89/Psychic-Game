@@ -45,6 +45,12 @@ document.onkeyup = function(event) {
     }
 
     if (losses > 5) {
+        alert("Sorry, You Lost.  Try Again!");
+        resetGame();
+    }
+
+    if (wins > 5) {
+        alert("Congrats!  You win!");
         resetGame();
     }
 
